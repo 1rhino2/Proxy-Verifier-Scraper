@@ -1,36 +1,14 @@
+# Proxy-Verifier-Scraper
 
----
+Scrapes proxy lists, checks them, writes working ones to `working.txt`.
 
-# Proxy Verifier Scraper
-
-A simple Python tool to scrape free HTTP proxies from public lists and verify which ones work.
-
----
-
-## Requirements
-
-* Python 3.7+
-* `requests`
-* `aiohttp`
-
-Install dependencies:
+## Run
 
 ```bash
-pip install requests aiohttp
-```
-
----
-
-## Usage
-
-Run:
-
-```bash
+pip install -r requirements.txt
 python main.py
 ```
 
-Working proxies will be saved to `working.txt`.
+## License
 
----
-
-
+MIT
