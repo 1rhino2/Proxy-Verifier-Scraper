@@ -1,13 +1,15 @@
 # Proxy-Verifier-Scraper
 
-Scrapes proxy lists, checks them, writes working ones to `working.txt`.
+Scrapes public proxy lists, checks which ones actually work, and writes the live
+ones to `working.txt`. Pure Python, standard library only.
 
 ## Run
 
 ```bash
-pip install -r requirements.txt
 python main.py
 ```
+
+`scraper.py` grabs the lists, `verifier.py` tests them, `main.py` runs both.
 
 ## License
 
